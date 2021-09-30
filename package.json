@@ -4,16 +4,44 @@
   "description": "App para prueba ingreso fusepong",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js --exec babel-node",
+    "start": "node src/index.js",
+    "build": "bael src -d dist",
+    "copyfiles": "ncp src/views $$ npc src/public dist/public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/socampo13/prueba-fusepong.git"
+    "url": "git+https://github.com/socampo13/Prueba-Tecnica-Fullstack"
   },
   "author": "Simon Ocampo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/socampo13/prueba-fusepong/issues"
   },
-  "homepage": "https://github.com/socampo13/prueba-fusepong#readme"
+  "homepage": "https://github.com/socampo13/prueba-fusepong#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.8",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.6",
+    "dotenv": "^10.0.0",
+    "handlebars": "^4.7.7",
+    "ncp": "^2.0.0",
+    "nodemon": "^2.0.13",
+    "rimraf": "^3.0.2"
+  }
 }
