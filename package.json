@@ -1,0 +1,19 @@
+{
+  "name": "prueba-tecnica-fullstack",
+  "version": "1.0.0",
+  "description": "App para prueba ingreso fusepong",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/socampo13/prueba-fusepong.git"
+  },
+  "author": "Simon Ocampo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/socampo13/prueba-fusepong/issues"
+  },
+  "homepage": "https://github.com/socampo13/prueba-fusepong#readme"
+}
