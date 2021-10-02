@@ -7,7 +7,7 @@ import {
   updateNote,
   deleteNote,
 } from "../controllers/notes.controller.mjs";
-import { isAuthenticated } from "../helpers/auth.js";
+import { isAuthenticated } from "../helpers/auth.mjs";
 
 const router = Router();
 

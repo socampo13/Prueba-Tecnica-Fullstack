@@ -1,4 +1,5 @@
-import { Schema, model } from "mongoose";
+import mongoose from 'mongoose';
+
 
 const NoteSchema = new Schema(
     {
@@ -20,4 +21,4 @@ const NoteSchema = new Schema(
     }
 );
 
-export default model("Note", NoteSchema);
+export const Note = mongoose.model("Note", NoteSchema);
