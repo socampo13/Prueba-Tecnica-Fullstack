@@ -8,11 +8,11 @@ import passport from "passport";
 import morgan from "morgan";
 import MongoStore from "connect-mongo";
 import { createAdminUser } from "./libs/createUser.mjs";
-import config from "./config";
+import config from "./config.mjs";
 import indexRoutes from "./routes/index.routes.mjs";
 import notesRoutes from "./routes/notes.routes.mjs";
-import userRoutes from "./routes/user.routes";
-import "./config/passport";
+import userRoutes from "./routes/users.routes.mjs";
+import "./config/passport.mjs";
 
 
 //Inicializar

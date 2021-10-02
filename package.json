@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "nodemon src/index.mjs --exec babel-node",
     "start": "node src/index.mjs",
-    "build": "bael src -d dist",
+    "build": "babel src -d dist",
     "copyfiles": "ncp src/views $$ npc src/public dist/public"
+    
   },
   "repository": {
     "type": "git",

@@ -5,7 +5,7 @@ import {
   renderSigninForm,
   signin,
   logout,
-} from "../controllers/users.controller";
+} from "../controllers/users.controller.mjs";
 
 const router = Router();
 

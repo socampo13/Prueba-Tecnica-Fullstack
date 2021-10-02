@@ -1,4 +1,4 @@
-import app from "./app";
+import app from "./app.mjs";
 import "./database.mjs";
 
 app.listen(app.get("port"));
