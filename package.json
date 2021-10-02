@@ -4,8 +4,8 @@
   "description": "App para prueba ingreso fusepong",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js --exec babel-node",
-    "start": "node src/index.js",
+    "dev": "nodemon src/index.mjs --exec babel-node",
+    "start": "node src/index.mjs",
     "build": "bael src -d dist",
     "copyfiles": "ncp src/views $$ npc src/public dist/public"
   },

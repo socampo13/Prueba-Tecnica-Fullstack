@@ -1,4 +1,4 @@
-import User from "../models/User";
+import User from "../models/User.mjs";
 
 export const createAdminUser = async () => {
     const userFound = await User.findOneAndReplace({ email: "admin@localhost" });

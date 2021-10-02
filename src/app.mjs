@@ -7,10 +7,10 @@ import flash from "connect-flash"
 import passport from "passport";
 import morgan from "morgan";
 import MongoStore from "connect-mongo";
-import { createAdminUser } from "./libs/createUser";
+import { createAdminUser } from "./libs/createUser.mjs";
 import config from "./config";
-import indexRoutes from "./routes/index.routes";
-import notesRoutes from "./routes/notes.routes";
+import indexRoutes from "./routes/index.routes.mjs";
+import notesRoutes from "./routes/notes.routes.mjs";
 import userRoutes from "./routes/user.routes";
 import "./config/passport";
 
